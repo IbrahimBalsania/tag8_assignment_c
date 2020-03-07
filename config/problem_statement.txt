@@ -1,0 +1,16 @@
+You are a renowned hacker who has recently found a bug within Flipmart. For a given amount of time, you can steal items from their inventory. However, each inventory item has a price and takes up a specific time to be available. Make a function which returns the maximum value of the inventory that can be stolen.
+
+Function Input Parameter: Time available to hack, Inventory array*
+Function Output Parameter: Inventory Array combination with max cost
+For example:
+    - function name : hackFlipmart
+    - Time available : 100 seconds
+    - Total inventory available : 4 items
+    - Time taken and value of each inventory :
+    - Item 1 : 10 seconds : Rs. 50
+    - Item 2 : 14 seconds : Rs. 100
+    - Item 3 : 3 seconds : Rs. 20
+    - Item 4 : 18 seconds : Rs. 150
+    - This entire data can be represented as [[10,50], [14,100], [3,20], [18, 150]]
+    - Also, ensure that you have taken fringe cases into consideration. Any item cannot have a zero price and time took also cannot be zero.
+    - *Inventory Array is an array of items with time to be available and cost. for eg. [[10,50], [14,100], [3,20], [18, 150]]
